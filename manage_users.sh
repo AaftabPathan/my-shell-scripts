@@ -12,7 +12,8 @@ log_message() {
 }
 
 # --- 1. Root Check ---
-if [[ $EUID -ne 0 ]]; then
+if [[ $EUID -ne 0 ]];
+then
    echo "Error: Yeh script root (sudo) se chalana zaroori hai."
    exit 1
 fi
@@ -24,7 +25,8 @@ mkdir -p "$BACKUP_DIR"
 read -p "Naya username enter karein: " USERNAME
 
 # Check if user already exists
-if id "$USERNAME" &>/dev/null; then
+if id "$USERNAME" &>/dev/null;
+then
     log_message "User '$USERNAME' pehle se hi exist karta hai."
 else
     # User create karna
