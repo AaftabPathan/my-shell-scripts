@@ -1,0 +1,25 @@
+name: Shell Script Linter and Test
+
+# Kab chalna chahiye? (Events)
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test-my-scripts:
+    runs-on: ubuntu-latest # Linux machine ka use karega
+
+    steps:
+      # 1. GitHub se aapka sara code is machine par copy karega
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Script ko permission dega (taki wo run ho sake)
+      - name: Make script executable
+        run: chmod +x manage_users.sh
+
+      # 3. Script ko run karke dekhega
+      - name: Run my script
+        run: ./manage_users.sh
