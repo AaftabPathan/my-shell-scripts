@@ -1,6 +1,6 @@
 📦🐚 MY SHELL SCRIPTS PROJECT 🐚📦
 
-🚀 Welcome to **my-shell-scripts** — yeh repository Linux & DevOps users ke liye banayi gayi hai jisme useful **Bash shell scripts** hain jo daily system tasks ko automate karti hain.
+🚀 Welcome to **my-shell-scripts** — this repository is designed for Linux & DevOps users and contains useful **Bash shell scripts** that automate daily system tasks.
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 📌 PROJECT OVERVIEW
@@ -10,29 +10,29 @@
 🔹 Logging with timestamps  
 🔹 Beginner-friendly & production-ready scripts  
 
-Ye project specially **System Administrators**, **DevOps Engineers** aur **Linux learners** ke liye helpful hai.
+This project is especially helpful for **System Administrators**, **DevOps Engineers**, and **Linux learners**.
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 ✨ FEATURES
 ━━━━━━━━━━━━━━━━━━━━━━━
 👤 User Management  
-✔️ New Linux user create karta hai  
-✔️ Duplicate user check karta hai  
-✔️ Home directory automatically create hoti hai  
+✔️ Creates new Linux users  
+✔️ Checks for duplicate users  
+✔️ Automatically creates home directories  
 
 📂 Backup Automation  
-✔️ User ke home folder ka `.tar.gz` backup  
-✔️ Backup folder mei date ke saath store hota hai  
+✔️ Creates a `.tar.gz` backup of the user's home directory  
+✔️ Stores backups with date in the backup folder  
 
 📝 Logging  
-✔️ Har action ka log maintain hota hai  
-✔️ Errors aur success dono track hote hain  
+✔️ Maintains logs for every action  
+✔️ Tracks both errors and successful operations  
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 📁 PROJECT STRUCTURE
 ━━━━━━━━━━━━━━━━━━━━━━━
 📦 my-shell-scripts  
- ┣ 📜 manage_users.sh   → User create + backup script  
+ ┣ 📜 manage_users.sh   → User creation + backup script  
  ┣ 📂 backups/          → Backup files (.tar.gz)  
  ┣ 📜 user_management.log → Logs file  
  ┗ 📄 README.md         → Project documentation  
@@ -40,13 +40,13 @@ Ye project specially **System Administrators**, **DevOps Engineers** aur **Linux
 ━━━━━━━━━━━━━━━━━━━━━━━
 🚀 HOW TO USE
 ━━━━━━━━━━━━━━━━━━━━━━━
-1️⃣ Repository clone karo  
+1️⃣ Clone the repository  
 👉 `git clone https://github.com/AaftabPathan/my-shell-scripts.git`
 
-2️⃣ Script ko executable banao  
+2️⃣ Make the script executable  
 👉 `chmod +x manage_users.sh`
 
-3️⃣ Root user ke saath script run karo  
+3️⃣ Run the script with root privileges  
 👉 `sudo ./manage_users.sh`
 
 ━━━━━━━━━━━━━━━━━━━━━━━
@@ -58,16 +58,16 @@ Ye project specially **System Administrators**, **DevOps Engineers** aur **Linux
 ━━━━━━━━━━━━━━━━━━━━━━━
 📌 IMPORTANT NOTES
 ━━━━━━━━━━━━━━━━━━━━━━━
-⚠️ Script run karne ke liye sudo/root access required  
-⚠️ Production system par use karte waqt dhyaan rakhein  
-⚠️ Paths aur variables apne system ke hisaab se modify kar sakte ho  
+⚠️ Sudo/root access is required to run the script  
+⚠️ Use carefully on production systems  
+⚠️ Paths and variables can be modified as per your system  
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 🤝 CONTRIBUTION
 ━━━━━━━━━━━━━━━━━━━━━━━
-💡 Fork karo  
-💡 New scripts add karo  
-💡 Pull Request bhejo  
+💡 Fork the repository  
+💡 Add new scripts  
+💡 Submit a Pull Request  
 
 ━━━━━━━━━━━━━━━━━━━━━━━
 📄 LICENSE
@@ -77,8 +77,7 @@ Ye project specially **System Administrators**, **DevOps Engineers** aur **Linux
 ━━━━━━━━━━━━━━━━━━━━━━━
 ❤️ SUPPORT
 ━━━━━━━━━━━━━━━━━━━━━━━
-⭐ Agar project pasand aaye toh GitHub par star zaroor dena  
+⭐ If you like this project, don’t forget to give it a star on GitHub  
 📢 Share with fellow DevOps & Linux learners  
 
 Happy Scripting! 🐧🔥
-****
